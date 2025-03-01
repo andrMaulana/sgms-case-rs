@@ -25,6 +25,7 @@ fn main() {
     let fisika: f64 = fisika.trim().parse().expect("Input buka angka");
 
     // Input nilai kimia
+    println!("Masukan nilai Kimia");
     let mut kimia = String::new();
     io::stdin()
         .read_line(&mut kimia)
