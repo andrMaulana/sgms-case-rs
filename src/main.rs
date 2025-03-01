@@ -43,4 +43,13 @@ fn main() {
     } else {
         "Tidak Lulus"
     };
+
+    // Tampilkan hasil
+    println!("\nhasil:");
+    println!("Nama: {}", nama.trim());
+    println!("Nilai Matematika: {}", nilai_siswa.0);
+    println!("Nilai Fisika: {}", nilai_siswa.1);
+    println!("Nilai Kimia: {}", nilai_siswa.2);
+    println!("Rata-rata: {:.1}", rata_rata);
+    println!("Status: {}", status);
 }
