@@ -36,4 +36,11 @@ fn main() {
 
     // Menghitung niai rata-rata
     let rata_rata = (nilai_siswa.0 + nilai_siswa.1 + nilai_siswa.2) / 3.0;
+
+    // tentukan status kelulusan
+    let status = if rata_rata >= 60.0 {
+        "Lulus!"
+    } else {
+        "Tidak Lulus"
+    };
 }
