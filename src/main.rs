@@ -15,4 +15,12 @@ fn main() {
         .read_line(&mut matematika)
         .expect("Gagal membaca input");
     let matematika: f64 = matematika.trim().parse().expect("Input bukan angka");
+
+    // Input nilai fisika
+    println!("Masukan nilai fisika");
+    let mut fisika = String::new();
+    io::stdin()
+        .read_line(&mut fisika)
+        .expect("Gagal membaca input");
+    let fisika: f64 = fisika.trim().parse().expect("Input buka angka");
 }
