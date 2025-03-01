@@ -33,4 +33,7 @@ fn main() {
 
     // save data lewat tuple
     let nilai_siswa = (matematika, fisika, kimia);
+
+    // Menghitung niai rata-rata
+    let rata_rata = (nilai_siswa.0 + nilai_siswa.1 + nilai_siswa.2) / 3.0;
 }
