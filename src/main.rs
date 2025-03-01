@@ -30,4 +30,7 @@ fn main() {
         .read_line(&mut kimia)
         .expect("Gagal membaca input");
     let kimia: f64 = kimia.trim().parse().expect("Input bukan angka");
+
+    // save data lewat tuple
+    let nilai_siswa = (matematika, fisika, kimia);
 }
