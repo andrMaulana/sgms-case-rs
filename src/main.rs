@@ -23,4 +23,11 @@ fn main() {
         .read_line(&mut fisika)
         .expect("Gagal membaca input");
     let fisika: f64 = fisika.trim().parse().expect("Input buka angka");
+
+    // Input nilai kimia
+    let mut kimia = String::new();
+    io::stdin()
+        .read_line(&mut kimia)
+        .expect("Gagal membaca input");
+    let kimia: f64 = kimia.trim().parse().expect("Input bukan angka");
 }
